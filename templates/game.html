@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% load static %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static '/js/drawboard.js' %}"></script>
+    <link rel="p1icon" href="{% static 'img/Chess_kdt45.png' %}">
+    <link rel="p2icon" href="{% static 'img/Chess_qdt45.png' %}">
+</head>
+
+<body>
+    <div id="main">
+        <button onclick="init()">go</button>
+    </div>
+</body>
+
+</html>
